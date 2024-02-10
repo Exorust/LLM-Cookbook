@@ -3,7 +3,7 @@
   <h1>The Large Language Model Cookbook</h1>
   <p align="center">
     🐦 <a href="https://twitter.com/charoori_ai">Follow me on X</a> • 
-    💻 <a href="https://exorust.github.io/blog">Blog</a>
+    <!-- 💻 <a href="https://exorust.github.io/blog">Blog</a> -->
   </p>
 </div>
 <br/>
@@ -62,7 +62,7 @@ This is a compendium of the best information out there. It is organized by quest
 - How do I build an ocr pdf analyser?
 
 ## Dataset
-- Can I generate synthetic Data with GPT?
+- How do I generate synthetic Data with GPT?
     - How did Alpaca do it?
 
 ## Deployment
