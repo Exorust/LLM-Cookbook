@@ -1,38 +1,81 @@
-# LLM Cookbook
+<div align="center">
+  <img src="img/robot.webp" alt="Robot Image">
+  <h1>The Large Language Model Cookbook</h1>
+  <p align="center">
+    🐦 <a href="https://twitter.com/charoori_ai">Follow me on X</a> • 
+    💻 <a href="https://exorust.github.io/blog">Blog</a>
+  </p>
+</div>
+<br/>
 
-Welcome to the LLM Cookbook repository! This collection of Jupyter Notebooks provides practical examples, tutorials, and recipes for working with Large Language Models.
 
-This is a compendium of the best information out there.
+
+Welcome to the LLM Cookbook repository! This is the best collection of how to start tweaking and using and building with Large Language models. Our code is sourced from multiple places and credits are specified.
+
+This is a compendium of the best information out there. It is organized by question.
 
 ## Table of Contents
-- [LLM Cookbook](#llm-cookbook)
-  - [Table of Contents](#table-of-contents)
-  - [Getting Started](#getting-started)
-  - [Useful Techniques](#useful-techniques)
-  - [Advanced Applications](#advanced-applications)
-  - [Contributions](#contributions)
+- [Table of Contents](#table-of-contents)
+- [Setup](#setup)
+- [Basic](#basic)
+- [Advanced](#advanced)
+- [Dataset](#dataset)
+- [Deployment](#deployment)
+- [Performance](#performance)
+- [Tracking](#tracking)
+- [Benchmarking](#benchmarking)
+- [Contributions](#contributions)
+- [Disclaimer](#disclaimer)
 
-## Getting Started
+-- 
 
-In this section, you will find introductory materials and resources to understand the basics of Large Language Models and their applications.
+## Setup
+- How to setup a GPU system?
+- How to run LLM locally?
+    - Olama
+    - LM Studio
+    - GGUF Format
 
-- [How can we run LLMs locally?](sections/getting-started/what_are_llms.ipynb)
-- [How to Use This Cookbook](sections/getting-started/how_to_use.ipynb)
+## Basic
+- How to do we use a model for our custom data?
+    - How to finetune?
+    - How to build RAG pipeline?
+- How can I apply guardrails to my LLM?
+- What kind of model should I use?
 
-## Useful Techniques
+## Advanced
+- How do I train on multiple GPUs?
+- How do I build Agents?
+- How to does my LLM interact with SQL?
+- How do I build a Chatbot?
+- How does my question and answer LLM show sources to data?
+- How do I make my models smaller to run on cheaper hardware? (Quantization)
+- How do I merge models to improve performance?
+- How do I build a mixture of experts?
+- How do I reduce the size of models?
 
-Discover useful techniques and best practices for working effectively with LLMs.
+## Dataset
+- Can I generate synthetic Data with GPT?
+    - How did Alpaca do it?
+- How do I re-align my model to How can I apply rlhf with public datasets?
 
-- [Finetuning your first LLM](sections/useful-techniques/finetuning_llama.ipynb)
+## Deployment
+- How do we convert a model to a REST API for consumption?
+- How to we create a basic WebUI for a model?
+- How do I demo my application on huggingface?
 
 
-## Advanced Applications
-
-Dive into advanced applications and use cases of Large Language Models.
-
--
+## Performance
+- What kind of metrics should you be tracking?
 
 
+## Tracking
+- How to remember the weights and biases used?
+
+## Benchmarking
+- What are the most common benchmarks to be used?
+
+--
 ## Contributions
 
 We welcome contributions from the community! If you have a notebook, tutorial, or any valuable information related to Large Language Models, please follow these steps to contribute:
@@ -46,3 +89,10 @@ We welcome contributions from the community! If you have a notebook, tutorial, o
 7. Open a pull request, and provide a detailed description of your contribution.
 
 Thank you for contributing to the LLM Cookbook!
+
+---
+## Disclaimer
+
+*I am not affiliated with any sources listed here.*
+
+---
