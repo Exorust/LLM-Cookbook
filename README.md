@@ -38,7 +38,7 @@ This is a compendium of the best information out there. It is organized by quest
     - GGUF Format
 
 ## Basic
-- How to do we use a model for our custom data?
+- How to use a model for our custom data? [Link](https://github.com/Exorust/LLM-Cookbook/blob/main/model-for-custom-data.md)
     - How to finetune?
       - FineTune Llama on HuggingFace data
       - FineTune Llama on Custom Data
