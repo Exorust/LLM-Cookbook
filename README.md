@@ -29,6 +29,7 @@ This is a compendium of the best information out there. It is organized by quest
 
 -- 
 
+
 ## Setup
 - How to setup a GPU system?
 - How to run LLM locally?
@@ -39,7 +40,13 @@ This is a compendium of the best information out there. It is organized by quest
 ## Basic
 - How to do we use a model for our custom data?
     - How to finetune?
+      - FineTune Llama on HuggingFace data
+      - FineTune Llama on Custom Data
+      - FineTune Mixtral
+      - Finetune TinyLlama 
     - How to build RAG pipeline?
+- How do I re-align my model? How can I apply RLHF (Reinforcement Learning from Human Feedback)?
+- How do I build a Chatbot?
 - How can I apply guardrails to my LLM?
 - What kind of model should I use?
 
@@ -47,17 +54,16 @@ This is a compendium of the best information out there. It is organized by quest
 - How do I train on multiple GPUs?
 - How do I build Agents?
 - How to does my LLM interact with SQL?
-- How do I build a Chatbot?
 - How does my question and answer LLM show sources to data?
 - How do I make my models smaller to run on cheaper hardware? (Quantization)
 - How do I merge models to improve performance?
 - How do I build a mixture of experts?
 - How do I reduce the size of models?
+- How do I build an ocr pdf analyser?
 
 ## Dataset
 - Can I generate synthetic Data with GPT?
     - How did Alpaca do it?
-- How do I re-align my model to How can I apply rlhf with public datasets?
 
 ## Deployment
 - How do we convert a model to a REST API for consumption?
