@@ -19,8 +19,8 @@ First you should try and see if you can use a pretrained model to run your appli
 ## How to finetune a model?
 Pre-trained models are great at generic usecases but might not solve your use case. 
 Once you have picked your model you need to choose a method of fine-tuning. 
-[LoRA](https://arxiv.org/abs/2106.09685): A parameter-efficient technique (PEFT) based on low-rank adapters. Instead of training all the parameters, we only train these adapters.
-[QLoRA](https://arxiv.org/abs/2305.14314): Another PEFT based on LoRA, which also quantizes the weights of the model in 4 bits and introduce paged optimizers to manage memory spikes. Combine it with Unsloth to run it efficiently on a free Colab notebook.
+- [LoRA](https://arxiv.org/abs/2106.09685): A parameter-efficient technique (PEFT) based on low-rank adapters. Instead of training all the parameters, we only train these adapters.
+- [QLoRA](https://arxiv.org/abs/2305.14314): Another PEFT based on LoRA, which also quantizes the weights of the model in 4 bits and introduce paged optimizers to manage memory spikes. Combine it with Unsloth to run it efficiently on a free Colab notebook.
 
 Best tools for Finetuning:
 - Unsloth: Allows you to train on Collab easily
