@@ -12,8 +12,7 @@ Welcome to the LLM Cookbook repository! This is the best collection of how to st
 
 This is a compendium of the best information out there. It is organized by question.
 
-## Table of Contents
-- [Table of Contents](#table-of-contents)
+### Table of Contents
 - [Setup](#setup)
 - [Basic](#basic)
 - [Advanced](#advanced)
@@ -26,7 +25,7 @@ This is a compendium of the best information out there. It is organized by quest
 - [Contributions](#contributions)
 - [Disclaimer](#disclaimer)
 
--- 
+
 
 ## Setup
 - How to setup a GPU system?
@@ -101,9 +100,16 @@ We welcome contributions from the community! If you have a notebook, tutorial, o
 
 Thank you for contributing to the LLM Cookbook!
 
+
 ---
 ## Disclaimer
 
-*I am not affiliated with any sources listed here.*
+This cookbook contains code snippets, examples, and techniques gathered from various sources, including but not limited to online repositories, public domain resources, and contributions from the coding community. The inclusion of such code is intended for educational purposes and as a resource for professionals seeking to enhance their programming skills. While we have made every effort to credit the original authors and ensure the accuracy and reliability of the information presented, we cannot guarantee the validity of all code segments or their applicability to specific projects or environments.
+
+Users of this cookbook are encouraged to review and test code thoroughly before integration into production environments. The authors and publishers of this cookbook disclaim any liability for errors, omissions, or the suitability of any code for particular applications. Furthermore, the technology landscape is dynamic, and practices, tools, and code standards evolve over time. Therefore, readers are advised to consult current documentation and resources to ensure best practices are followed.
+
+For specific code contributions, source attributions have been provided where possible. We acknowledge the collective knowledge of the programming community and express our gratitude to those who openly share their work. If you believe any code has been used inappropriately or without proper authorization, please contact us for review and corrective action.
+
+Use of the code provided within this cookbook is at your own risk. No warranty, express or implied, is made regarding the effectiveness, compatibility, or safety of the code samples. By using the information contained herein, you agree to assume all risks associated with such use, including but not limited to the loss of data, system failure, or financial losses.
 
 ---
