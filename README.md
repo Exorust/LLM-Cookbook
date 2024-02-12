@@ -8,9 +8,9 @@
 </div>
 <br/>
 
-"Welcome to the evolving LLM Cookbook repository! This space is dedicated to becoming the ultimate guide for anyone interested in tweaking, using, and building with Large Language Models. Our repository is a growing collection, sourced from diverse places, with all credits duly acknowledged.
+Welcome to the evolving LLM Cookbook repository! This space is dedicated to becoming the ultimate guide for anyone interested in tweaking, using, and building with Large Language Models. Our repository is a growing collection, sourced from diverse places, with all credits duly acknowledged.
 
-Consider this compendium as your go-to resource, meticulously organized by questions to help you navigate the vast world of LLMs with ease. We're on a mission to compile the best information out there, and we invite the community to contribute. Whether you have insights, code, or questions, your input is invaluable in enriching this repository. Join us in shaping the LLM Cookbook into an even more comprehensive resource for all!"
+Consider this compendium as your go-to resource, meticulously organized by questions to help you navigate the vast world of LLMs with ease. We're on a mission to compile the best information out there, and we invite the community to contribute. Whether you have insights, code, or questions, your input is invaluable in enriching this repository. Join us in shaping the LLM Cookbook into an even more comprehensive resource for all!
 
 ### Table of Contents
 - [Setup](#setup)
