@@ -2,7 +2,7 @@
   <img src="img/robot.webp" alt="Robot Image">
   <h1>The Large Language Model Cookbook</h1>
   <p align="center">
-    🐦 <a href="https://twitter.com/charoori_ai">Follow me on Twitter</a> 
+    🐦 <a href="https://twitter.com/charoori_ai">Follow me on Twitter</a> •
     📧 <a href="mailto:chandrahas.aroori@gmail.com?subject=LLM%20Cookbook">Contact on Email</a>
   </p>
 </div>
