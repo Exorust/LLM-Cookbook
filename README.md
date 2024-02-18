@@ -2,15 +2,15 @@
   <img src="img/robot.webp" alt="Robot Image">
   <h1>The Large Language Model Cookbook</h1>
   <p align="center">
-    🐦 <a href="https://twitter.com/charoori_ai">Follow me on Twitter</a> 
-    <!-- 💻 <a href="https://exorust.github.io/blog">Blog</a> -->
+    🐦 <a href="https://twitter.com/charoori_ai">Follow me on Twitter</a> •
+    📧 <a href="mailto:chandrahas.aroori@gmail.com?subject=LLM%20Cookbook">Contact on Email</a>
   </p>
 </div>
 <br/>
 
-Welcome to the LLM Cookbook repository! This is the best collection of how to start tweaking and using and building with Large Language models. Our code is sourced from multiple places and credits are specified.
+Welcome to the evolving LLM Cookbook repository! This space is dedicated to becoming the ultimate guide for anyone interested in tweaking, using, and building with Large Language Models. Our repository is a growing collection, sourced from diverse places, with all credits duly acknowledged.
 
-This is a compendium of the best information out there. It is organized by question.
+Consider this compendium as your go-to resource, meticulously organized by questions to help you navigate the vast world of LLMs with ease. We're on a mission to compile the best information out there, and we invite the community to contribute. Whether you have insights, code, or questions, your input is invaluable in enriching this repository. Join us in shaping the LLM Cookbook into an even more comprehensive resource for all!
 
 ### Table of Contents
 - [Setup](#setup)
