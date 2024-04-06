@@ -20,9 +20,11 @@ Consider this compendium as your go-to resource, meticulously organized by quest
   - [Quantization](#quantization)
   - [Agents](#agents)
   - [Multi-modal](#multi-modal)
+    - [Vision Models](#vision-models)
   - [Datasets](#datasets)
 - [LLMOps / MLOps](#llmops--mlops)
   - [Deployment](#deployment)
+  - [Speed](#speed)
   - [Performance](#performance)
   - [Tracking](#tracking)
   - [Benchmarking](#benchmarking)
@@ -74,6 +76,7 @@ Consider this compendium as your go-to resource, meticulously organized by quest
 - How do I build Agents?
 
 ### Multi-modal
+#### Vision Models
 
 ### Datasets
 
@@ -89,6 +92,13 @@ Consider this compendium as your go-to resource, meticulously organized by quest
 - How do we convert a model to a REST API for consumption?
 - How do we create a basic WebUI for a model?
 - How do I demo my application on huggingface?
+- How to run LLMs on multiple platforms?
+  - How to convert LLMs to ONNX?
+
+### Speed
+
+- How to decrease latency of the LLM models?
+
 
 ### Performance
 
