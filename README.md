@@ -12,80 +12,106 @@ Welcome to the evolving LLM Cookbook repository! This space is dedicated to beco
 
 Consider this compendium as your go-to resource, meticulously organized by questions to help you navigate the vast world of LLMs with ease. We're on a mission to compile the best information out there, and we invite the community to contribute. Whether you have insights, code, or questions, your input is invaluable in enriching this repository. Join us in shaping the LLM Cookbook into an even more comprehensive resource for all!
 
-### Table of Contents
-- [Setup](#setup)
-- [Basic](#basic)
-- [Advanced](#advanced)
-- [Multi-modal](#multi-modal)
-- [Dataset](#dataset)
-- [Deployment](#deployment)
-- [Performance](#performance)
-- [Tracking](#tracking)
-- [Benchmarking](#benchmarking)
+### Table of contents
+- [Model Creation](#model-creation)
+  - [Setup](#setup)
+  - [Basic](#basic)
+  - [Advanced](#advanced)
+  - [Quantization](#quantization)
+  - [Agents](#agents)
+  - [Multi-modal](#multi-modal)
+  - [Datasets](#datasets)
+- [LLMOps / MLOps](#llmops--mlops)
+  - [Deployment](#deployment)
+  - [Performance](#performance)
+  - [Tracking](#tracking)
+  - [Benchmarking](#benchmarking)
+  - [Use Cases](#use-cases)
 - [Contributions](#contributions)
 - [Disclaimer](#disclaimer)
 
 
+## Model Creation
 
-## Setup
+### Setup
+
 - How to setup a GPU system?
 - How to run LLM locally?
-    - Olama
-    - LM Studio
-    - GGUF Format
+  - Olama
+  - LM Studio
+  - GGUF Format
 
-## Basic
+### Basic
+
 - [How to use a model for our custom data?](https://github.com/Exorust/LLM-Cookbook/blob/main/model-for-custom-data.md)
-    - [How to finetune?](https://github.com/Exorust/LLM-Cookbook/blob/main/model-for-custom-data.md#how-to-finetune-a-model)
-      - [FineTune Llama on HuggingFace data](https://github.com/Exorust/LLM-Cookbook/blob/main/finetuning_llama_existing_data.ipynb)
-      - FineTune Llama on Custom Data
-      - [FineTune Mixtral](https://github.com/Exorust/LLM-Cookbook/blob/main/mixtral_finetune.ipynb)
-      - [Finetune TinyLlama](https://github.com/Exorust/LLM-Cookbook/blob/main/finetune_tinyllama.ipynb)
-- How to add memory to my model? (RAG)
+  - [How to finetune?](https://github.com/Exorust/LLM-Cookbook/blob/main/model-for-custom-data.md#how-to-finetune-a-model)
+    - [FineTune Llama on HuggingFace data](https://github.com/Exorust/LLM-Cookbook/blob/main/finetuning_llama_existing_data.ipynb)
+    - [FineTune Mixtral](https://github.com/Exorust/LLM-Cookbook/blob/main/mixtral_finetune.ipynb)
+    - [Finetune TinyLlama](https://github.com/Exorust/LLM-Cookbook/blob/main/finetune_tinyllama.ipynb)
+- [How to add memory to my model? (RAG)](https://github.com/Exorust/LLM-Cookbook/blob/main/langchain-qa-rag.ipynb)
 - How do I re-align my model? How can I apply RLHF (Reinforcement Learning from Human Feedback)?
 - How do I build a Chatbot?
 - [How can I prevent my model from answering wrong/malicious questions/inputs? (Validation)](https://github.com/Exorust/LLM-Cookbook/blob/main/guardrails.md)
 - What kind of model should I use?
 - How can I use prompting to improve my LLM output?
+- How do I integrate API's into my LLM?
 
-## Advanced
+### Advanced
+
 - How do I train on multiple GPUs?
-- How do I build Agents?
-- How to does my LLM interact with SQL?
-- How does my question and answer LLM show sources to data?
-- How do I make my models smaller to run on cheaper hardware? (Quantization)
+- How does my LLM interact with SQL?
+- How does my LLM show sources to data? (Citations)
+
 - How do I merge models to improve performance?
 - How do I build a mixture of experts?
 - How do I reduce the size of models?
-- How do I build an ocr pdf analyser?
 
-## Multi-modal
+### Quantization
 
+- How do I make my models smaller to run on cheaper hardware? (Quantization)
 
-## Dataset
-- How to split documents/pdf into a dataset?
-- 
+### Agents
+
+- How do I build Agents?
+
+### Multi-modal
+
+### Datasets
+
 - How to load a public dataset for use?
+- How to split documents/pdf into a dataset?
 - How do I generate synthetic Data with GPT?
-    - How did Alpaca do it?
+  - How did Alpaca do it?
 
-## Deployment
+## LLMOps / MLOps
+
+### Deployment
+
 - How do we convert a model to a REST API for consumption?
-- How to we create a basic WebUI for a model?
+- How do we create a basic WebUI for a model?
 - How do I demo my application on huggingface?
 
+### Performance
 
-## Performance
 - What kind of metrics should you be tracking?
 
+### Tracking
 
-## Tracking
 - [How do I track the experiments done & best results?](https://github.com/Exorust/LLM-Cookbook/blob/main/wandb.md)
 
-## Benchmarking
+### Benchmarking
+
 - What are the most common benchmarks to be used?
 
+### Use Cases
+
+- How do I build an ocr pdf analyser?
+- How to build a chatbot on internal documentation?
+- How to build a conversational chatbot from Database information?
+- How to use a LLMs for Medical Data?
+
 --
+
 ## Contributions
 
 We welcome contributions from the community! If you have a notebook, tutorial, or any valuable information related to Large Language Models, please follow these steps to contribute:
@@ -100,8 +126,8 @@ We welcome contributions from the community! If you have a notebook, tutorial, o
 
 Thank you for contributing to the LLM Cookbook!
 
-
 ---
+
 ## Disclaimer
 
 This cookbook contains code snippets, examples, and techniques gathered from various sources, including but not limited to online repositories, public domain resources, and contributions from the coding community. The inclusion of such code is intended for educational purposes and as a resource for professionals seeking to enhance their programming skills. While we have made every effort to credit the original authors and ensure the accuracy and reliability of the information presented, we cannot guarantee the validity of all code segments or their applicability to specific projects or environments.
