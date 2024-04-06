@@ -26,7 +26,7 @@ Consider this compendium as your go-to resource, meticulously organized by quest
   - [Performance](#performance)
   - [Tracking](#tracking)
   - [Benchmarking](#benchmarking)
-  - [Use Cases](#use-cases)
+- [Use Cases](#use-cases)
 - [Contributions](#contributions)
 - [Disclaimer](#disclaimer)
 
@@ -61,7 +61,6 @@ Consider this compendium as your go-to resource, meticulously organized by quest
 - How do I train on multiple GPUs?
 - How does my LLM interact with SQL?
 - How does my LLM show sources to data? (Citations)
-
 - How do I merge models to improve performance?
 - How do I build a mixture of experts?
 - How do I reduce the size of models?
@@ -103,12 +102,14 @@ Consider this compendium as your go-to resource, meticulously organized by quest
 
 - What are the most common benchmarks to be used?
 
-### Use Cases
+## Use Cases
 
 - How do I build an ocr pdf analyser?
 - How to build a chatbot on internal documentation?
 - How to build a conversational chatbot from Database information?
 - How to use a LLMs for Medical Data?
+  - How to build LLMs for teaching Medicine?
+  - How to train LLMs to understand Medical Data?
 
 --
 
