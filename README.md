@@ -98,6 +98,14 @@ Consider this compendium as your go-to resource, meticulously organized by quest
 ### Speed
 
 - How to decrease latency of the LLM models?
+- How to increase speed of inference of LLM Models?
+  - vLLM
+  - TensorRT: Speed
+- How to increase speed of training of LLM Models?
+  - How do I train on multiple GPUs?
+  - DeepSpeed: Increase Training Phase
+- Tensor Compilers
+  - [List of Tensor compilers: Github](https://github.com/merrymercy/awesome-tensor-compilers#open-source-projects)
 
 
 ### Performance
