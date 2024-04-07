@@ -1,11 +1,17 @@
 # Main Question to be answered
 
-## Comparision Between methods
+## Basic Premise
+
+## Possible Methods
+### Comparision Between methods
 | Method | About | Pros | Cons |
 |----------|----------|----------|----------|
-| VLLM    |          |          |          |
-| BentoML    |          |          |          |
-| Row 3    |          |          |          |
+| Option 1    |          |          |          |
+| Option 2    |          |          |          |
+| Option 3    |          |          |          |
+
+
+## See Also
 
 ## References
 

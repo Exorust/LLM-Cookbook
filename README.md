@@ -17,6 +17,7 @@ Consider this compendium as your go-to resource, meticulously organized by quest
   - [Setup](#setup)
   - [Basic](#basic)
   - [Advanced](#advanced)
+  - [Reinforcement Learning from Human Feedback](#reinforcement-learning-from-human-feedback)
   - [Quantization](#quantization)
   - [Agents](#agents)
   - [Multi-modal](#multi-modal)
@@ -42,6 +43,11 @@ Consider this compendium as your go-to resource, meticulously organized by quest
   - Olama
   - LM Studio
   - GGUF Format
+- How to run LLMs on Cloud Providers?
+  - RunPod
+  - LazyAxolotl
+  - Brev.dev
+  - Lightning.ai
 
 ### Basic
 
@@ -52,7 +58,7 @@ Consider this compendium as your go-to resource, meticulously organized by quest
     - [Finetune TinyLlama](https://github.com/Exorust/LLM-Cookbook/blob/main/finetune_tinyllama.ipynb)
 - [How to add memory to my model? (RAG)](https://github.com/Exorust/LLM-Cookbook/blob/main/langchain-qa-rag.ipynb)
   - How can I use a hosted Vector Database for my Model Memory?
-- How do I re-align my model? How can I apply RLHF (Reinforcement Learning from Human Feedback)?
+- [How do I re-align my model? How can I apply RLHF (Reinforcement Learning from Human Feedback)?](https://github.com/Exorust/LLM-Cookbook/blob/main/README.md#reinforcement-learning-from-human-feedback)
 - How do I build a Chatbot?
 - [How can I prevent my model from answering wrong/malicious questions/inputs? (Validation)](https://github.com/Exorust/LLM-Cookbook/blob/main/guardrails.md)
 - What kind of model should I use?
@@ -67,10 +73,14 @@ Consider this compendium as your go-to resource, meticulously organized by quest
 - How do I merge models to improve performance?
 - How do I build a mixture of experts?
 - How do I reduce the size of models?
+- How build Positional Embeddings?
+
+### Reinforcement Learning from Human Feedback
 
 ### Quantization
 
 - How do I make my models smaller to run on cheaper hardware? (Quantization)
+  - How to 
 
 ### Agents
 
@@ -81,6 +91,7 @@ Consider this compendium as your go-to resource, meticulously organized by quest
 
 ### Datasets
 
+- How to build a standard Question Answer Dataset for LLMs?
 - How to load a public dataset for use?
 - How to split documents/pdf into a dataset?
 - How do I generate synthetic Data with GPT?
@@ -91,6 +102,12 @@ Consider this compendium as your go-to resource, meticulously organized by quest
 ### Deployment
 
 - [How do we convert a model to a REST API for consumption?](https://github.com/Exorust/LLM-Cookbook/blob/main/deployment.md)
+- How to compile the model to multiple run systems?
+  - GGUF
+  - GPTQ
+  - EXL2
+  - AWQ
+  - HQQ
 - How to host a LLM model on a cloud?
 - How do we create a basic WebUI for a model?
 - How do I demo my application on huggingface?
@@ -103,6 +120,7 @@ Consider this compendium as your go-to resource, meticulously organized by quest
 - How to decrease latency of the LLM models?
 - How to increase speed of inference of LLM Models?
   - vLLM
+  - ExLlamaV2
   - TensorRT: Speed
 - How to increase speed of training of LLM Models?
   - How do I train on multiple GPUs?
@@ -132,21 +150,28 @@ Consider this compendium as your go-to resource, meticulously organized by quest
   - How to build LLMs for teaching Medicine?
   - How to train LLMs to understand Medical Data?
 
---
+---
 
 ## Contributions
 
-We welcome contributions from the community! If you have a notebook, tutorial, or any valuable information related to Large Language Models, please follow these steps to contribute:
+We're excited to invite the community to contribute! If you've got insights, notebooks, or tutorials that could enrich our understanding or utilization of Large Language Models, here's how you can share your knowledge:
 
-1. Fork the repository.
-2. Create a new branch for your contribution: `git checkout -b feature/new-contribution`.
-3. Add your notebook or content to the relevant section.
-4. Ensure that your notebook runs successfully and includes clear instructions.
-5. Commit your changes: `git commit -m "Add new contribution: [Your Contribution Title]"`.
-6. Push to the branch: `git push origin feature/new-contribution`.
-7. Open a pull request, and provide a detailed description of your contribution.
+Before starting, ensure your contribution is focused on providing solutions to specific use cases rather than merely elucidating methods. For clarity:
+- "What is model quantization?" is not. ❌
+- "How to reduce the size of a model?" is encouraged. ✅
 
-Thank you for contributing to the LLM Cookbook!
+To contribute, please follow these steps:
+
+1. Fork the project repository.
+2. Utilize the `template.md` file to craft a new markdown document.
+3. Incorporate your document's details and link it within the `README`.
+4. Confirm that your notebook operates smoothly and includes straightforward instructions.
+5. Initiate a new branch for your work with: `git checkout -b feature/new-contribution`.
+6. Record your modifications with: `git commit -m "Add new contribution: [Title of Your Contribution]"`.
+7. Upload your changes to the branch: `git push origin feature/new-contribution`.
+8. Propose a pull request, ensuring you offer a comprehensive description of what you're introducing.
+
+Your involvement enriches the LLM Cookbook—thank you for your participation!
 
 ---
 
