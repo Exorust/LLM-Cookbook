@@ -23,3 +23,9 @@ Now just run your training script and see how wandb logs all the required data.
 
 ## Neptune AI
 []: # TODO: Add here
+
+
+## References
+
+This project uses code from the following source:
+- **Wandb**: Available at: [URL to the original source](https://wandb.ai/)

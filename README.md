@@ -51,6 +51,7 @@ Consider this compendium as your go-to resource, meticulously organized by quest
     - [FineTune Mixtral](https://github.com/Exorust/LLM-Cookbook/blob/main/mixtral_finetune.ipynb)
     - [Finetune TinyLlama](https://github.com/Exorust/LLM-Cookbook/blob/main/finetune_tinyllama.ipynb)
 - [How to add memory to my model? (RAG)](https://github.com/Exorust/LLM-Cookbook/blob/main/langchain-qa-rag.ipynb)
+  - How can I use a hosted Vector Database for my Model Memory?
 - How do I re-align my model? How can I apply RLHF (Reinforcement Learning from Human Feedback)?
 - How do I build a Chatbot?
 - [How can I prevent my model from answering wrong/malicious questions/inputs? (Validation)](https://github.com/Exorust/LLM-Cookbook/blob/main/guardrails.md)
@@ -61,7 +62,7 @@ Consider this compendium as your go-to resource, meticulously organized by quest
 ### Advanced
 
 - How do I train on multiple GPUs?
-- How does my LLM interact with SQL?
+- [How does my LLM interact with SQL?](https://github.com/Exorust/LLM-Cookbook/blob/main/sql-integ.md)
 - How does my LLM show sources to data? (Citations)
 - How do I merge models to improve performance?
 - How do I build a mixture of experts?
@@ -89,11 +90,13 @@ Consider this compendium as your go-to resource, meticulously organized by quest
 
 ### Deployment
 
-- How do we convert a model to a REST API for consumption?
+- [How do we convert a model to a REST API for consumption?](https://github.com/Exorust/LLM-Cookbook/blob/main/deployment.md)
+- How to host a LLM model on a cloud?
 - How do we create a basic WebUI for a model?
 - How do I demo my application on huggingface?
 - How to run LLMs on multiple platforms?
   - How to convert LLMs to ONNX?
+- How to build an on-prem system to run LLMs?
 
 ### Speed
 

@@ -1,4 +1,4 @@
-# Main Question to be answered
+# How to use LLMs and SQL?
 
 ## Comparision Between methods
 | Method | About | Pros | Cons |

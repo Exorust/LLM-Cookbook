@@ -125,6 +125,58 @@ directory [here](https://github.com/vllm-project/vllm/tree/main/examples/)
 :module: vllm.entrypoints.openai.cli_args
 :func: make_arg_parser
 :prog: vllm-openai-server
+``` 
+
+## BentoML
+This example demonstrates how to serve and deploy a simple text summarization application.
+
+### Serving a model locally
+
+Install dependencies:
+
+```
+pip install torch transformers "bentoml>=1.2.0a0"
+```
+
+Define the serving logic of your model in a `service.py` file.
+
+```python
+from __future__ import annotations
+import bentoml
+from transformers import pipeline
+
+
+@bentoml.service(
+    resources={"cpu": "2"},
+    traffic={"timeout": 10},
+)
+class Summarization:
+    def __init__(self) -> None:
+        # Load model into pipeline
+        self.pipeline = pipeline('summarization')
+
+    @bentoml.api
+    def summarize(self, text: str) -> str:
+        result = self.pipeline(text)
+        return result[0]['summary_text']
+```
+
+Run this BentoML Service locally, which is accessible at [http://localhost:3000](http://localhost:3000).
+
+```bash
+bentoml serve service:Summarization
+```
+
+Send a request to summarize a short news paragraph:
+
+```bash
+curl -X 'POST' \
+  'http://localhost:3000/summarize' \
+  -H 'accept: text/plain' \
+  -H 'Content-Type: application/json' \
+  -d '{
+  "text": "Breaking News: In an astonishing turn of events, the small town of Willow Creek has been taken by storm as local resident Jerry Thompson'\''s cat, Whiskers, performed what witnesses are calling a '\''miraculous and gravity-defying leap.'\'' Eyewitnesses report that Whiskers, an otherwise unremarkable tabby cat, jumped a record-breaking 20 feet into the air to catch a fly. The event, which took place in Thompson'\''s backyard, is now being investigated by scientists for potential breaches in the laws of physics. Local authorities are considering a town festival to celebrate what is being hailed as '\''The Leap of the Century."
+}'
 ```
 
 
