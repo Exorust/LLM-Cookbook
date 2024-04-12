@@ -42,7 +42,6 @@ Consider this compendium as your go-to resource, meticulously organized by quest
 - How to run LLM locally?
   - Olama
   - LM Studio
-  - GGUF Format
 - How to run LLMs on Cloud Providers?
   - RunPod
   - LazyAxolotl
@@ -56,8 +55,9 @@ Consider this compendium as your go-to resource, meticulously organized by quest
     - [FineTune Llama on HuggingFace data](https://github.com/Exorust/LLM-Cookbook/blob/main/finetuning_llama_existing_data.ipynb)
     - [FineTune Mixtral](https://github.com/Exorust/LLM-Cookbook/blob/main/mixtral_finetune.ipynb)
     - [Finetune TinyLlama](https://github.com/Exorust/LLM-Cookbook/blob/main/finetune_tinyllama.ipynb)
-- [How to add memory to my model? (RAG)](https://github.com/Exorust/LLM-Cookbook/blob/main/langchain-qa-rag.ipynb)
-  - How can I use a hosted Vector Database for my Model Memory?
+- [How to add memory to my model? (RAG)](https://github.com/Exorust/LLM-Cookbook/blob/main/memory.md)
+  - [How to implement RAG?](https://github.com/Exorust/LLM-Cookbook/blob/main/langchain-qa-rag.ipynb)
+  - [How can I use a hosted Vector Database for my Model Memory?](https://github.com/Exorust/LLM-Cookbook/blob/main/hosted-rag.md)
 - [How do I re-align my model? How can I apply RLHF (Reinforcement Learning from Human Feedback)?](https://github.com/Exorust/LLM-Cookbook/blob/main/README.md#reinforcement-learning-from-human-feedback)
 - How do I build a Chatbot?
 - [How can I prevent my model from answering wrong/malicious questions/inputs? (Validation)](https://github.com/Exorust/LLM-Cookbook/blob/main/guardrails.md)
@@ -68,7 +68,7 @@ Consider this compendium as your go-to resource, meticulously organized by quest
 ### Advanced
 
 - How do I train on multiple GPUs?
-- [How does my LLM interact with SQL?](https://github.com/Exorust/LLM-Cookbook/blob/main/sql-integ.md)
+- [How does my LLM interact with SQL?](https://github.com/Exorust/LLM-Cookbook/blob/main/sql-integ.ipynb)
 - How does my LLM show sources to data? (Citations)
 - How do I merge models to improve performance?
 - How do I build a mixture of experts?
