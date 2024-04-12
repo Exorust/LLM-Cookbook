@@ -67,7 +67,7 @@ Consider this compendium as your go-to resource, meticulously organized by quest
 
 ### Advanced
 
-- How do I train on multiple GPUs?
+- [How do I train on multiple GPUs?](https://github.com/Exorust/LLM-Cookbook/blob/main/multi-gpu.md)
 - [How does my LLM interact with SQL?](https://github.com/Exorust/LLM-Cookbook/blob/main/sql-integ.ipynb)
 - How does my LLM show sources to data? (Citations)
 - How do I merge models to improve performance?
