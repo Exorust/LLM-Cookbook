@@ -80,7 +80,6 @@ Consider this compendium as your go-to resource, meticulously organized by quest
 ### Quantization
 
 - How do I make my models smaller to run on cheaper hardware? (Quantization)
-  - How to 
 
 ### Agents
 
@@ -91,11 +90,12 @@ Consider this compendium as your go-to resource, meticulously organized by quest
 
 ### Datasets
 
-- How to build a standard Question Answer Dataset for LLMs?
-- How to load a public dataset for use?
+- [How to load a public dataset for use?](https://github.com/Exorust/LLM-Cookbook/blob/main/load-dataset.md)
+- [How to load data from a database?](https://github.com/Exorust/LLM-Cookbook/blob/main/dataset-database.md)
+- How can I upload my own dataset to HuggingFace?
+- [How to build a standard Question Answer Dataset for LLMs?](https://wandb.ai/capecape/alpaca_ft/reports/How-to-Fine-Tune-an-LLM-Part-1-Preparing-a-Dataset-for-Instruction-Tuning--Vmlldzo1NTcxNzE2)
 - How to split documents/pdf into a dataset?
 - How do I generate synthetic Data with GPT?
-  - How did Alpaca do it?
 
 ## LLMOps / MLOps
 
@@ -114,6 +114,7 @@ Consider this compendium as your go-to resource, meticulously organized by quest
 - How to run LLMs on multiple platforms?
   - How to convert LLMs to ONNX?
 - How to build an on-prem system to run LLMs?
+- How to reduce inference cost?
 
 ### Speed
 
@@ -143,6 +144,7 @@ Consider this compendium as your go-to resource, meticulously organized by quest
 
 ## Use Cases
 
+- How to build a 'talk-to-your-data' application?
 - How do I build an ocr pdf analyser?
 - How to build a chatbot on internal documentation?
 - How to build a conversational chatbot from Database information?
