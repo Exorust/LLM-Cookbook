@@ -40,13 +40,13 @@ Consider this compendium as your go-to resource, meticulously organized by quest
 
 - How to setup a GPU system?
 - How to run LLM locally?
-  - Olama
-  - LM Studio
-- How to run LLMs on Cloud Providers?
-  - RunPod
-  - LazyAxolotl
-  - Brev.dev
-  - Lightning.ai
+  - [Olama](https://github.com/ollama/ollama)
+  - [LM Studio](https://lmstudio.ai/)
+- How to run LLMs on Cloud Providers? **(No affiliation with any of them)**
+  - [LambdaLabs](https://lambdalabs.com/)
+  - [RunPod](https://www.runpod.io)
+  - [Brev.dev](https://brev.dev/)
+  - [Lightning.ai](https://lightning.ai)
 
 ### Basic
 
@@ -55,6 +55,7 @@ Consider this compendium as your go-to resource, meticulously organized by quest
     - [FineTune Llama on HuggingFace data](https://github.com/Exorust/LLM-Cookbook/blob/main/finetuning_llama_existing_data.ipynb)
     - [FineTune Mixtral](https://github.com/Exorust/LLM-Cookbook/blob/main/mixtral_finetune.ipynb)
     - [Finetune TinyLlama](https://github.com/Exorust/LLM-Cookbook/blob/main/finetune_tinyllama.ipynb)
+    - [Generic Guide to FineTuning](https://rentry.org/llm-training)
 - [How to add memory to my model? (RAG)](https://github.com/Exorust/LLM-Cookbook/blob/main/memory.md)
   - [How to implement RAG?](https://github.com/Exorust/LLM-Cookbook/blob/main/langchain-qa-rag.ipynb)
   - [How can I use a hosted Vector Database for my Model Memory?](https://github.com/Exorust/LLM-Cookbook/blob/main/hosted-rag.md)
@@ -68,6 +69,7 @@ Consider this compendium as your go-to resource, meticulously organized by quest
 ### Advanced
 
 - [How do I train on multiple GPUs?](https://github.com/Exorust/LLM-Cookbook/blob/main/multi-gpu.md)
+  - [DeepSpeed](https://github.com/microsoft/DeepSpeed)
 - [How does my LLM interact with SQL?](https://github.com/Exorust/LLM-Cookbook/blob/main/sql-integ.ipynb)
 - How does my LLM show sources to data? (Citations)
 - How do I merge models to improve performance?
@@ -79,6 +81,7 @@ Consider this compendium as your go-to resource, meticulously organized by quest
 
 ### Quantization
 
+- [How much memory will my model consume?](https://blog.eleuther.ai/transformer-math/)
 - How do I make my models smaller to run on cheaper hardware? (Quantization)
 
 ### Agents
@@ -94,6 +97,8 @@ Consider this compendium as your go-to resource, meticulously organized by quest
 - [How to load data from a database?](https://github.com/Exorust/LLM-Cookbook/blob/main/dataset-database.md)
 - How can I upload my own dataset to HuggingFace?
 - [How to build a standard Question Answer Dataset for LLMs?](https://wandb.ai/capecape/alpaca_ft/reports/How-to-Fine-Tune-an-LLM-Part-1-Preparing-a-Dataset-for-Instruction-Tuning--Vmlldzo1NTcxNzE2)
+- [Where can I find datasets for LLM training?](https://github.com/Zjh-819/LLMDataHub)
+- [How to clean my own synthetic Dataset?](https://github.com/AlpinDale/gptslop)
 - How to split documents/pdf into a dataset?
 - How do I generate synthetic Data with GPT?
 
