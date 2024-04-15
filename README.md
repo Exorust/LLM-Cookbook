@@ -68,6 +68,7 @@ Consider this compendium as your go-to resource, meticulously organized by quest
 
 ### Advanced
 
+- [How to improve efficiency of training on a single GPU?](https://huggingface.co/docs/transformers/perf_train_gpu_one)
 - [How do I train on multiple GPUs?](https://github.com/Exorust/LLM-Cookbook/blob/main/multi-gpu.md)
   - [DeepSpeed](https://github.com/microsoft/DeepSpeed)
 - [How does my LLM interact with SQL?](https://github.com/Exorust/LLM-Cookbook/blob/main/sql-integ.ipynb)
