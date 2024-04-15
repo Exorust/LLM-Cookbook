@@ -28,8 +28,8 @@ Consider this compendium as your go-to resource, meticulously organized by quest
   - [Speed](#speed)
   - [Performance](#performance)
   - [Tracking](#tracking)
-  - [Benchmarking](#benchmarking)
-- [Use Cases](#use-cases)
+  - [Benchmarking / Model Evaluation](#benchmarking--model-evaluation)
+- [Use Case Recipes](#use-case-recipes)
 - [Contributions](#contributions)
 - [Disclaimer](#disclaimer)
 
@@ -78,6 +78,9 @@ Consider this compendium as your go-to resource, meticulously organized by quest
 - How build Positional Embeddings?
 
 ### Reinforcement Learning from Human Feedback
+- How to create my own Preference Dataset?
+- [How to use DPO to train my own LLM?](https://huggingface.co/blog/dpo-trl)
+- [How to train Llama with RLHF? (PPO older method)](https://huggingface.co/blog/stackllama)
 
 ### Quantization
 
@@ -99,6 +102,7 @@ Consider this compendium as your go-to resource, meticulously organized by quest
 - [How to build a standard Question Answer Dataset for LLMs?](https://wandb.ai/capecape/alpaca_ft/reports/How-to-Fine-Tune-an-LLM-Part-1-Preparing-a-Dataset-for-Instruction-Tuning--Vmlldzo1NTcxNzE2)
 - [Where can I find datasets for LLM training?](https://github.com/Zjh-819/LLMDataHub)
 - [How to clean my own synthetic Dataset?](https://github.com/AlpinDale/gptslop)
+- [How to pad my data for Causal LM?](https://towardsdatascience.com/padding-large-language-models-examples-with-llama-2-199fb10df8ff)
 - How to split documents/pdf into a dataset?
 - How do I generate synthetic Data with GPT?
 
@@ -143,11 +147,17 @@ Consider this compendium as your go-to resource, meticulously organized by quest
 
 - [How do I track the experiments done & best results?](https://github.com/Exorust/LLM-Cookbook/blob/main/wandb.md)
 
-### Benchmarking
-
+### Benchmarking / Model Evaluation
+- How do traditional NLP metrics translate to LLMs?
+  - [Perplexity](https://huggingface.co/docs/transformers/perplexity)
+  - BLEU
 - What are the most common benchmarks to be used?
+  - [Open LLM Leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard)
+  - [Big Bench](https://github.com/google/BIG-bench)
+- How to define task-specific benchmarks?
+- How to get Human evaluation benchmarks?
 
-## Use Cases
+## Use Case Recipes
 
 - How to build a 'talk-to-your-data' application?
 - How do I build an ocr pdf analyser?
