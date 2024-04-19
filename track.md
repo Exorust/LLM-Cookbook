@@ -1,7 +1,5 @@
 # How do I track the experiments done & best results?
 
-
-
 ## Wandb
 One of the best solutions currently used is Wandb, ie Weights & Biases. 
 

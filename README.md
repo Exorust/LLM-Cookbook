@@ -25,6 +25,7 @@ Consider this compendium as your go-to resource, meticulously organized by quest
   - [Datasets](#datasets)
 - [LLMOps / MLOps](#llmops--mlops)
   - [Deployment](#deployment)
+  - [Monitoring](#monitoring)
   - [Speed](#speed)
   - [Performance](#performance)
   - [Tracking](#tracking)
@@ -106,6 +107,7 @@ Consider this compendium as your go-to resource, meticulously organized by quest
 - [How to pad my data for Causal LM?](https://towardsdatascience.com/padding-large-language-models-examples-with-llama-2-199fb10df8ff)
 - How to split documents/pdf into a dataset?
 - How do I generate synthetic Data with GPT?
+- How to remove duplicates in your dataset? (dedup)
 
 ## LLMOps / MLOps
 
@@ -125,6 +127,14 @@ Consider this compendium as your go-to resource, meticulously organized by quest
   - How to convert LLMs to ONNX?
 - How to build an on-prem system to run LLMs?
 - How to reduce inference cost?
+
+### Monitoring
+
+- [How to monitor your LLM?](https://github.com/Exorust/LLM-Cookbook/blob/main/monitor.md)
+- How to monitor the LLM consistency in output quality?
+- How to run test cases for LLMs?
+  - Langsmith
+  - DeepEval
 
 ### Speed
 
@@ -146,7 +156,7 @@ Consider this compendium as your go-to resource, meticulously organized by quest
 
 ### Tracking
 
-- [How do I track the experiments done & best results?](https://github.com/Exorust/LLM-Cookbook/blob/main/wandb.md)
+- [How do I track the experiments done & best results?](https://github.com/Exorust/LLM-Cookbook/blob/main/track.md)
 
 ### Benchmarking / Model Evaluation
 - How do traditional NLP metrics translate to LLMs?
@@ -156,6 +166,7 @@ Consider this compendium as your go-to resource, meticulously organized by quest
   - [Open LLM Leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard)
   - [Big Bench](https://github.com/google/BIG-bench)
 - How to define task-specific benchmarks?
+- [How to capture acceptance of answers by the users?](https://docs.smith.langchain.com/cookbook/feedback-examples)
 - How to get Human evaluation benchmarks?
 
 ## Use Case Recipes
